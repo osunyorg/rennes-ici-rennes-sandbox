@@ -1,15 +1,16 @@
 ---
 title: >-
-  Accueil
+  ICI.RENNES.FR
 breadcrumb_title: >-
-  Accueil
+  ICI.RENNES.FR
 
 
-
+bodyclass: >-
+  page-home-post
 url: "/"
 slug: ""
 date: 2026-05-12T14:03:35+02:00
-lastmod: 2026-05-12T14:03:38+02:00
+lastmod: 2026-05-12T16:45:22+02:00
 meta:
   hugo:
     permalink: "/"
@@ -18,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-05-12T14:03:35+02:00
-    updated_at: 2026-05-12T14:03:38+02:00
+    updated_at: 2026-05-12T16:45:22+02:00
     published_at: 2026-05-12T14:03:35+02:00
 search:
   id: "6b09b2cd-e172-4e66-a3e8-bff8008c0b45"
@@ -27,13 +28,14 @@ search:
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
-    Accueil
-
+    ICI.RENNES.FR
+  summary: >-
+    <p>Toute l'actualité municipale et métropolitaine</p>
 
 
 breadcrumbs:
   - title: >-
-      Accueil
+      ICI.RENNES.FR
 
 design:
   full_width: true
@@ -67,9 +69,15 @@ child_pages:
     path: "/organizations"
     slug: "organisations"
     file: "content/fr/organizations/_index.html"
-
-
+meta_description: >-
+  Consultez toute l'actualité municipale et métropolitaine sur notre site : infos en continu, podcasts, dossiers, idées de sorties et tous les journaux Ici Rennes en version numérique.
+summary: >-
+  <p>Toute l'actualité municipale et métropolitaine</p>
 header_cta:
+  target: "https://ici-rennes-sandbox.rennes.osuny.site/actualites/"
+  external: false
+  label: >-
+    Toutes les actus
 
 
 contents_reading_time:
@@ -77,5 +85,45 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: posts
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        subtitle: true
+        summary: true
+
+      posts:
+        - permalink: "/actualites/2026-05-12-actu-2/"
+          path: "/posts/2026/2026-05-12-actu-2"
+          slug: "actu-2"
+          file: "content/fr/posts/2026/2026-05-12-actu-2.html"
+          name: >-
+            Actu 2
+        - permalink: "/actualites/2026-05-12-actu-1/"
+          path: "/posts/2026/2026-05-12-actu-1"
+          slug: "actu-1"
+          file: "content/fr/posts/2026/2026-05-12-actu-1.html"
+          name: >-
+            Actu 1
+
+      quantity: 2
+
+
 
 ---
